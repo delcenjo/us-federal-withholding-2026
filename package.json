@@ -1,0 +1,12 @@
+{
+  "name": "us-federal-withholding-2026",
+  "version": "1.0.0",
+  "description": "2026 U.S. federal income tax withholding (IRS Publication 15-T, percentage method), 2026 tax brackets and FICA, tested against every row of the IRS biweekly wage bracket table.",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": { "test": "node --test test/*.test.ts" },
+  "engines": { "node": ">=22.18" },
+  "keywords": ["paycheck", "withholding", "irs", "publication 15-t", "payroll", "income tax", "2026", "fica", "w-4"],
+  "homepage": "https://paycheckgauge.com/federal-withholding-tables/",
+  "license": "MIT"
+}
